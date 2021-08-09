@@ -15,7 +15,7 @@ import com.vaadin.flow.router.Route;
 import org.springframework.beans.factory.annotation.Autowired;
 
 
-@Route(value = "/banks", layout = SkeletOfApp.class)
+@Route(value = "/", layout = SkeletOfApp.class)
 public class BankView extends AbstractView {
 
     private final BankService   bankService;
