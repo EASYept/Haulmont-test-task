@@ -199,7 +199,6 @@ public class CreditOfferForm extends VerticalLayout {
         }
     }
 
-    //TODO add button to close form
     public static class CloseEvent extends CreditOfferFormEvent {
         CloseEvent(CreditOfferForm source) {
             super(source, null);
